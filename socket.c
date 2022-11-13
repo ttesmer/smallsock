@@ -16,14 +16,12 @@ void error(const char *msg) {
     } while (0);
 }
 
-void write_file(FILE *file_pointer, int sfd) {
-
-}
+void write_file(FILE *file_pointer, int sfd) {}
 
 int main(int argc, char *argv[]) {
-    // ipv4 tcp socket
     struct sockaddr_in serv_addr, client_addr;
     int cli_len, PORT_NO, new_sfd, sfd;
+    // IPv4 TCP socket
     sfd = socket(AF_INET, SOCK_STREAM, 0); 
     PORT_NO = 8000;
 

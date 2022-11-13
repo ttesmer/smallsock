@@ -1,2 +1,2 @@
-sock:
-	gcc socket.c -o socket
+smallsock:
+	gcc socket.c -o serve
