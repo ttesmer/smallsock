@@ -1,4 +1,4 @@
-# Nanosocket
+# Smallsock(et)
 
 ## Run
 ```bash
